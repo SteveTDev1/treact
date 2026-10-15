@@ -1112,17 +1112,16 @@ footer {
     position:relative;
 }
 
-footer .footer__row {
+.row {
     max-width:1200px;
     margin:0 auto;
     position:relative;
     z-index:1;
 }
 
-footer .footer__columns {
+.footer__columns {
+    margin-top: -48px;
     display:flex;
-    justify-content:space-between;
-    gap:28px;
     flex-wrap:wrap;
 }
 
@@ -1175,6 +1174,7 @@ footer .footer__logo--img {
 footer .footer__logo--text {
     font-size:20px;
     font-weight:900;
+    color: white;
 }
 
 footer .footer__copyright {
@@ -1261,9 +1261,6 @@ footer .footer__blob--2 {
         margin-bottom:28px;
     }
     
-    #start .row {
-        padding:48px 24px;
-    }
     
     #start .start__row {
         flex-direction:column;
@@ -1282,4 +1279,5 @@ footer .footer__blob--2 {
         flex-direction:column;
         text-align:center;
     }
+
 }
